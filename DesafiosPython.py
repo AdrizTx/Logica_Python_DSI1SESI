@@ -55,14 +55,30 @@ print("Tipo: ", type(num))
 # Crie uma variável chamada "aprovado"
 # com o valor booleano True e mostre seu tipo.
 
+print("=====================================")
+aprovado = True
+print("Aprovado: ", aprovado)
+print("Tipo: ", type(aprovado))
+
 # EX8
 # Some True e False e mostre o resultado
 # e também o tipo do resultado.
+
+print("=====================================")
+resultado = True + False
+print("Resultado: ", resultado)
+print("Tipo: ", type(resultado))
 
 # EX9
 # Pesquise e mostre qual é o valor máximo
 # que um número inteiro pode ter em Python.
 
+import sys
+
+print(sys.maxsize)
+
 # EX10
 # Mostre a representação em binário
 # do número 10 usando uma função do Python.
+
+print(bin(10))
