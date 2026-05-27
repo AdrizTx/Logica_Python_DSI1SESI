@@ -193,7 +193,7 @@ print("\n\n")
 print("======== EXERCICIO 16 ========")
 print("\n\n")
 
-print("string invertida: ", st[::2])
+print("indices Pares: ", st[::2])
 
 # EX17
 # Inverta a string "software".
