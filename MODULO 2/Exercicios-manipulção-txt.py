@@ -193,8 +193,7 @@ print("\n\n")
 print("======== EXERCICIO 16 ========")
 print("\n\n")
 
-for i in range(0, len(st), 2):
-    print(st[i])
+print("string invertida: ", st[::-1])
 
 # EX17
 # Inverta a string "software".
